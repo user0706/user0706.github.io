@@ -197,6 +197,7 @@ body{
 	color: black;
 	text-decoration: none;
 	display: flex;
+	flex-wrap: wrap;
 	margin-top: 20px;
 
 	border-style: solid;
@@ -244,4 +245,29 @@ header{
 	color: #0067f6;
     border-bottom: 2px solid #0067f6;
     padding-bottom: 0;
+}
+
+
+
+
+
+/* PORTFOLIO */
+
+
+
+
+@media(max-width: 768px){
+	.container-cert{
+		display: block;
+		text-align: center;
+	}
+	.container-cert .certificate-cover{
+		margin: auto;
+	}
+}
+
+@media(max-width: 500px){
+	.container-cert .certificate-cover{
+		margin: auto;
+	}
 }
