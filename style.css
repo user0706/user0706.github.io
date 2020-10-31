@@ -128,8 +128,18 @@ body{
 
 .time-line{
 	display: flex;
-	justify-content: space-between;
 	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.education{
+	flex: 1;
+	min-width: 200px;
+}
+
+.experience{
+	flex: 1;
+	min-width: 200px;
 }
 
 .education, .experience{
